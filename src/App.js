@@ -5,10 +5,13 @@ import JobLists from './components/JobLists';
 
 const App = () => {
     return (
-        <>
+        <div className="bg-teal-100">
             <Header />
-            <JobLists />
-        </>
+
+            <div className="container m-auto">
+                <JobLists />
+            </div>
+        </div>
     )
 }
 
